@@ -1,7 +1,7 @@
-def add(a, b):
-    return a+b
- 
 
+
+import add
+ 
 def main():
     
     a = int(input("write no 1: "))
