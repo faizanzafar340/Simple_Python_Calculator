@@ -2,6 +2,7 @@
 
 import add
 from subB import sub
+import multi
  
 def main():
     
@@ -12,6 +13,8 @@ def main():
         print(add(a,b))
     elif operation == 2:
         print(sub(a,b))
+    elif operation == 3:
+        print(multi(a,b))
     else:
         print("results not found") 
     
