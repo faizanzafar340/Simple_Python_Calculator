@@ -1,8 +1,8 @@
 
 
-import add
+from add import add
 from subB import sub
-import multi
+from multi import multi
  
 def main():
     
@@ -18,4 +18,4 @@ def main():
     else:
         print("results not found") 
     
-main() 
+main()
